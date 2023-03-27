@@ -6,9 +6,9 @@ public class Monsters extends Unit{
 
 	public int power;
 	
-	public Monsters(int position, int hp,int max) {
-		super(position, hp, max);
-	}
+//	public Monsters(int position, int hp,int max) {
+//		super(position, hp, max);
+//	}
 	public Monsters(int position, String name, int hp,int max) {
 		super(position, name, hp, max);
 	}

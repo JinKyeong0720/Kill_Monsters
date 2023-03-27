@@ -1,9 +1,11 @@
 package game;
 
 public class Dinosaur extends Monsters{
-	
-	
-	public Dinosaur(int hp, String name, int max) {
-		super(100, 0, 7);
+
+	public Dinosaur(int position, String name, int max) {
+		super(position, name, max);
+		// TODO Auto-generated constructor stub
 	}
+	
+
 }

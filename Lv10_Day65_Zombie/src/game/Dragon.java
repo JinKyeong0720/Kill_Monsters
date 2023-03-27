@@ -3,6 +3,11 @@ package game;
 import java.util.Random;
 
 public class Dragon extends Monsters {
+	public Dragon(int position, String name, int max) {
+		super(position, name, max);
+		// TODO Auto-generated constructor stub
+	}
+
 	Random ran = new Random();
 	public int shield;
 	
@@ -18,8 +23,5 @@ public class Dragon extends Monsters {
 		return this.shield;
 	}
 	
-	public Dragon(){
-		super(500, 0, 16);
-//		this.shield = shield;
-	}
+	
 }

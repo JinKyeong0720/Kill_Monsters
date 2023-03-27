@@ -2,8 +2,10 @@ package game;
 
 public class Skeleton extends Monsters{
 
-	public Skeleton(int hp, String name, int max) {
-		super(40, 0, 15);
+	public Skeleton(int position, String name, int max) {
+		super(position, name, max);
+		// TODO Auto-generated constructor stub
 	}
+
 	
 }

@@ -2,8 +2,9 @@ package game;
 
 public class Scorpion extends Monsters{
 
-	public Scorpion(int hp, String name, int max) {
-		super(70, 0, 6);
+	public Scorpion(int position, String name, int max) {
+		super(position, name, max);
+		// TODO Auto-generated constructor stub
 	}
 	
 

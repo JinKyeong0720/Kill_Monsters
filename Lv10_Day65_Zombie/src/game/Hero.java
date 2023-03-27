@@ -1,6 +1,12 @@
 package game;
 
+
 public class Hero extends Unit{
+	public Hero(int position, String name, int max) {
+		super(position, name, max);
+		// TODO Auto-generated constructor stub
+	}
+
 	public static void main(String[] args) {
 		
 	}
@@ -8,19 +14,19 @@ public class Hero extends Unit{
 	int power;
 	int count;
 	
-	public Hero() {
-		super(position, hp, max);
-		this.count = count;
-	}
-	
-	
-	public void attack(Unit enemy) {
-		if(enemy instanceof Monsters) {
-			Monsters monsters = (Monsters)enemy;
-			power = ran.nextInt(max)+1;
-			if(monsters.)
-		}
-	}
+//	public Hero() {
+//		super(position, hp, max);
+//		this.count = count;
+//	}
+//	
+//	
+//	public void attack(Unit enemy) {
+//		if(enemy instanceof Monsters) {
+//			Monsters monsters = (Monsters)enemy;
+//			power = ran.nextInt(max)+1;
+//			if(monsters.)
+//		}
+//	}
 	
 	public void recovery(Recoverable recover) {
 		if(recover instanceof Hero) {
